@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "description": "",
+    "name": "Chrome Ext One",
+    "description": "Testing chrome extension",
     "version": "0.1.0",
     "manifest_version": 2,
     "icons": {
@@ -24,5 +24,8 @@
         }
     },
     "options_page": "options.html",
-    "permissions": []
+    "permissions": [
+        "tabs",
+        "*://*/*"
+    ]
 }
